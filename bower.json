@@ -1,0 +1,25 @@
+{
+  "name": "smartberry",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mitro/smartberry",
+  "authors": [
+    "Dmitriy Melnik <d.b.melnik@yandex.ru>"
+  ],
+  "description": "Learn while playing",
+  "main": "Smartberry",
+  "moduleType": [
+    "amd",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.13.1"
+  }
+}
