@@ -19,5 +19,4 @@ gulp.task('clean', function() {
 
 gulp.task('default', ['clean'], function() {
     gulp.start('transform');
-    gulp.watch('./static/scripts/jsx/main.js', ['transform']);
 });
