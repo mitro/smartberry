@@ -8,25 +8,9 @@
   </head>
   <body>
     <div class="container">
-      <div id="content"></div>
+      <div id="react-mount"></div>
     </div>
     <!-- scripts -->
-    <script src="/static/bower_components/react/react.min.js"></script>
-    <script src="/static/bower_components/react/JSXTransformer.js"></script>
-    <script type="text/jsx">
-
-      /*** @jsx React.DOM */
-
-      var helloWorld = React.createClass({
-        render: function() {
-          return (<h2>Hello, I am Smartberry with Bower!</h2>)
-        }
-      });
-
-      React.render(
-        React.createElement(helloWorld, null),
-        document.getElementById('content')
-      );
-    </script>
+    <script type="text/javascript" src="/static/scripts/js/main.js"></script>
   </body>
 </html>

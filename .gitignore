@@ -61,3 +61,6 @@ node_modules/
 
 # Bower components
 static/bower_components
+
+# Browserified bundle
+static/scripts/js/main.js
